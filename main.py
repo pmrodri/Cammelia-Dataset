@@ -3,7 +3,7 @@
 """
 Created on Thu Dec 19 21:33:05 2024
 
-@author: pedror
+@author: pmrodri
 """
 
 import pandas as pd #toolbox to work with dataframes
