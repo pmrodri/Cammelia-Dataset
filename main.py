@@ -152,7 +152,7 @@ for u in t:
     o=0
     for k in range(1,30,1):
         pcadata = PCA(n_components=k)
-        for j in tqdm(range(30,d_n.shape[1],10)):    
+        for j in tqdm(range(70,d_n.shape[1],10)):    
             df_nf,cols_idxs=feature_selector(d_n,target,1,j)
             principalComponents = pcadata.fit_transform(df_nf)
             for i in classifiers:
